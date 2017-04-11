@@ -1,5 +1,12 @@
 import React from "react";
 import Head from "next/head";
+import { titlesColor } from "../styles/colors";
+
+const Name = () => (
+  <div className="Name">
+    <h1>Klervi Corbel</h1>
+  </div>
+);
 
 export default class Home extends React.Component {
   render() {
@@ -10,9 +17,7 @@ export default class Home extends React.Component {
             <title>Klervi Corbel</title>
           </Head>
         </div>
-        <div className="Name">
-          <h1>Klervi Corbel</h1>
-        </div>
+
         <div className="Title">
           <h2>Titre</h2>
         </div>
@@ -32,7 +37,7 @@ export default class Home extends React.Component {
         </div>
         <div className="Skills">
           <h2>Compétences Techniques</h2>
-          <label>Bon clairement y'a un gros tri à faire</label>
+          <label>Bon clairement un gros tri à faire</label>
         </div>
         <div className="ProfessionalExperiences">
           <h2>Expériences Professionnelles</h2>
