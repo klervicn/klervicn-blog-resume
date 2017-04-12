@@ -34,23 +34,14 @@ var _head2 = _interopRequireDefault(_head);
 
 var _colors = require("../styles/colors");
 
+var _Name = require("../components/Name");
+
+var _Name2 = _interopRequireDefault(_Name);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\pages\\index.js?entry";
 
-
-var Name = function Name() {
-  return _react2.default.createElement("div", { className: "Name", __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, _react2.default.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, "Klervi Corbel"));
-};
 
 var Home = function (_React$Component) {
   (0, _inherits3.default)(Home, _React$Component);
@@ -67,114 +58,118 @@ var Home = function (_React$Component) {
       return _react2.default.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 9
         }
       }, _react2.default.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 10
         }
       }, _react2.default.createElement(_head2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 11
         }
       }, _react2.default.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 12
         }
-      }, "Klervi Corbel"))), _react2.default.createElement("div", { className: "Title", __source: {
+      }, "Klervi Corbel"))), _react2.default.createElement(_Name2.default, { name: "Klervi Corbel", __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 15
+        }
+      }), _react2.default.createElement("div", { className: "Title", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 17
         }
       }, "Titre")), _react2.default.createElement("div", { className: "Photo", __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 19
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 20
         }
       }, "Photo")), _react2.default.createElement("div", { className: "PersonalInformation", __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 22
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 23
         }
       }, "Infos Personnelles"), _react2.default.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 24
         }
       }, "Adresse, email, tel, permis, age + pictos")), _react2.default.createElement("div", { className: "Languages", __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 26
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 27
         }
       }, "Langues"), _react2.default.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 28
         }
       }, "Anglais + Espagnol")), _react2.default.createElement("div", { className: "Studies", __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 30
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 31
         }
       }, "Formation")), _react2.default.createElement("div", { className: "Skills", __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 33
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 34
         }
       }, "Comp\xE9tences Techniques"), _react2.default.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 35
         }
       }, "Bon clairement un gros tri \xE0 faire")), _react2.default.createElement("div", { className: "ProfessionalExperiences", __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 37
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 38
         }
       }, "Exp\xE9riences Professionnelles"), _react2.default.createElement("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 39
         }
       }, "Tri aussi ici")), _react2.default.createElement("div", { className: "Others", __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 41
         }
       }, _react2.default.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 42
         }
       }, "Loisirs et autres activit\xE9s")));
     }
