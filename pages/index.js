@@ -1,7 +1,10 @@
 import React from "react";
 import Head from "next/head";
-import { titlesColor } from "../styles/colors";
-import Name from "../components/Name";
+import TitleSection from "../components/TitleSection";
+import HeadSection from "../components/HeadSection";
+import LineLabel from "../components/LineLabel";
+import Line from "../components/Line";
+import CaptionLine from "../components/CaptionLine";
 
 export default class Home extends React.Component {
   render() {
@@ -12,34 +15,44 @@ export default class Home extends React.Component {
             <title>Klervi Corbel</title>
           </Head>
         </div>
-        <Name name="Klervi Corbel" />
-        <div className="Title">
-          <h2>Titre</h2>
-        </div>
-        <div className="Photo">
-          <h2>Photo</h2>
+        <div>
+          <TitleSection />
         </div>
         <div className="PersonalInformation">
-          <h2>Infos Personnelles</h2>
-          <label>Adresse, email, tel, permis, age + pictos</label>
-        </div>
-        <div className="Languages">
-          <h2>Langues</h2>
-          <label>Anglais + Espagnol</label>
+          <HeadSection name="Informations personnelles" />
+          <LineLabel label="Adresse" />
+          <Line content="6 rue Delouvain 75019 Paris" />
+          <CaptionLine caption="Ecole CS2i" />
+          <LineLabel label="Mail" />
+          <LineLabel label="Age" />
+          <LineLabel label="Tel" />
+          <LineLabel label="Permis" />
         </div>
         <div className="Studies">
-          <h2>Formation</h2>
+          <HeadSection name="Formation" />
+          <LineLabel label="2015" />
+          <LineLabel label="2014" />
         </div>
         <div className="Skills">
-          <h2>Compétences Techniques</h2>
-          <label>Bon clairement un gros tri à faire</label>
+          <HeadSection name="Compétences techniques" />
+          <LineLabel label="Anglais" />
+          <LineLabel label="Espagnol" />
+          <LineLabel label="Langages" />
+          <LineLabel label="Logiciels" />
         </div>
         <div className="ProfessionalExperiences">
-          <h2>Expériences Professionnelles</h2>
-          <label>Tri aussi ici</label>
+          <HeadSection name="Expériences Professionnelles" />
+          <LineLabel label="Ubisoft" />
+          <LineLabel label="Cognizant" />
+          <LineLabel label="Auto-entrepreneur" />
+          <LineLabel label="Gamac Informatique" />
         </div>
         <div className="Others">
-          <h2>Loisirs et autres activités</h2>
+          <HeadSection name="Loisirs et autres activités" />
+          <LineLabel label="Loutres" />
+          <LineLabel label="Bernards l'ermite" />
+          <LineLabel label="Emeus" />
+          <LineLabel label="Sharkyfication" />
         </div>
       </div>
     );

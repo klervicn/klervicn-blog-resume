@@ -12,27 +12,26 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _colors = require("../styles/colors");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\Name.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\CaptionLine.js";
 
-// Garder comme ça ou tout intégrer à la title ?
+// Mettre en italique et bcp plus petit, même alignement que les lignes
 exports.default = function (_ref) {
-  var name = _ref.name,
+  var caption = _ref.caption,
       _ref$style = _ref.style,
       style = _ref$style === undefined ? {} : _ref$style,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["name", "style"]);
+      props = (0, _objectWithoutProperties3.default)(_ref, ["caption", "style"]);
 
   return _react2.default.createElement("div", {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, _react2.default.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, _react2.default.createElement("h1", { style: { color: _colors.titlesColor }, __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    }
-  }, name));
+  }, caption));
 };

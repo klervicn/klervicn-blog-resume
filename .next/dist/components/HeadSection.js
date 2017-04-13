@@ -12,13 +12,11 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _colors = require("../styles/colors");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\Name.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\HeadSection.js";
 
-// Garder comme ça ou tout intégrer à la title ?
+// Aligné au centre, bordure ? Créer un tableau ?
 exports.default = function (_ref) {
   var name = _ref.name,
       _ref$style = _ref.style,
@@ -28,11 +26,12 @@ exports.default = function (_ref) {
   return _react2.default.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     }
-  }, _react2.default.createElement("h1", { style: { color: _colors.titlesColor }, __source: {
+  }, _react2.default.createElement("h2", {
+    __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     }
   }, name));
 };
