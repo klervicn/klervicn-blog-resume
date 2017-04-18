@@ -1,8 +1,8 @@
 import React from "react";
 
 // Mettre en italique et bcp plus petit, même alignement que les lignes
-export default ({ caption, style = {}, ...props }) => (
+export default ({ children, style = {}, ...props }) => (
   <div>
-    <p>{caption}</p>
+    <p>{children}</p>
   </div>
 );

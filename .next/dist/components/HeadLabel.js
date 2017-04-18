@@ -14,15 +14,16 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\HeadSection.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\HeadLabel.js";
 
+// Aligné au centre, bordure ? Créer un tableau ?
 exports.default = function (_ref) {
   var children = _ref.children,
       _ref$style = _ref.style,
       style = _ref$style === undefined ? {} : _ref$style,
       props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style"]);
 
-  return _react2.default.createElement("div", {
+  return _react2.default.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4

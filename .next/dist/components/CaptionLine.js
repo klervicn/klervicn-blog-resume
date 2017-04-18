@@ -18,10 +18,10 @@ var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\CaptionL
 
 // Mettre en italique et bcp plus petit, même alignement que les lignes
 exports.default = function (_ref) {
-  var caption = _ref.caption,
+  var children = _ref.children,
       _ref$style = _ref.style,
       style = _ref$style === undefined ? {} : _ref$style,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["caption", "style"]);
+      props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style"]);
 
   return _react2.default.createElement("div", {
     __source: {
@@ -33,5 +33,5 @@ exports.default = function (_ref) {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, caption));
+  }, children));
 };

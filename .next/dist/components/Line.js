@@ -18,20 +18,15 @@ var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\Line.js"
 
 // Diminuer la font-size, faire en sorte que ce soit aligné à gauche après le label
 exports.default = function (_ref) {
-  var content = _ref.content,
+  var children = _ref.children,
       _ref$style = _ref.style,
       style = _ref$style === undefined ? {} : _ref$style,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["content", "style"]);
+      props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style"]);
 
-  return _react2.default.createElement("div", {
+  return _react2.default.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     }
-  }, _react2.default.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, content));
+  }, children);
 };

@@ -18,11 +18,11 @@ var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\LineLabe
 
 // Aligné à gacuche, en gras ?
 exports.default = function (_ref) {
-  var label = _ref.label,
+  var children = _ref.children,
       style = _ref.style,
       _ref$picto = _ref.picto,
       picto = _ref$picto === undefined ? {} : _ref$picto,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["label", "style", "picto"]);
+      props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style", "picto"]);
 
   return _react2.default.createElement("div", {
     __source: {
@@ -34,5 +34,5 @@ exports.default = function (_ref) {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, label));
+  }, children));
 };
