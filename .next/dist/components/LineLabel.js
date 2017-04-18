@@ -14,7 +14,7 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\LineLabel.js";
+var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\LineLabel.js";
 
 // Aligné à gacuche, en gras ?
 exports.default = function (_ref) {
@@ -24,15 +24,13 @@ exports.default = function (_ref) {
       picto = _ref$picto === undefined ? {} : _ref$picto,
       props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style", "picto"]);
 
-  return _react2.default.createElement("div", {
+  return _react2.default.createElement("label", {
+    style: {
+      display: "table-cell"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     }
-  }, _react2.default.createElement("label", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, children));
+  }, children);
 };

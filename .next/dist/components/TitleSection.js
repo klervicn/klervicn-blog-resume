@@ -16,17 +16,14 @@ var _head = require("next\\dist\\lib\\head.js");
 
 var _head2 = _interopRequireDefault(_head);
 
-var _colors = require("../styles/colors");
-
 var _Name = require("../components/Name");
 
 var _Name2 = _interopRequireDefault(_Name);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\TitleSection.js";
+var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\TitleSection.js";
 
-// Remplacer par des sections génériques ou garder ça ?
 exports.default = function (_ref) {
   var _ref$style = _ref.style,
       style = _ref$style === undefined ? {} : _ref$style,
@@ -35,21 +32,21 @@ exports.default = function (_ref) {
   return _react2.default.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 6
     }
   }, _react2.default.createElement(_Name2.default, { name: "Klervi Corbel", __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 7
     }
   }), _react2.default.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     }
   }, "Titre"), _react2.default.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 9
     }
   }, "Photo"));
 };

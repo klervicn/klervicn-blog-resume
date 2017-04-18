@@ -1,7 +1,12 @@
 import React from "react";
 
 export default ({ children, style = {}, ...props }) => (
-  <div>
+  <div
+    style={{
+      display: "table-cell",
+      paddingLeft: 10
+    }}
+  >
     {children}
   </div>
 );

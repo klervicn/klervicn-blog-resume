@@ -1,7 +1,7 @@
 import React from "react";
 
 export default ({ children, style = {}, ...props }) => (
-  <h2 style={{ verticalAlign: "center" }}>
+  <div style={{ fontFamily: "Verdana" }}>
     {children}
-  </h2>
+  </div>
 );

@@ -1,7 +1,12 @@
 import React from "react";
 
 export default ({ children, style = {}, ...props }) => (
-  <h2 style={{ verticalAlign: "center" }}>
+  <ul
+    style={{
+      display: "table",
+      padding: 0
+    }}
+  >
     {children}
-  </h2>
+  </ul>
 );
