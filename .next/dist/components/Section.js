@@ -22,7 +22,11 @@ exports.default = function (_ref) {
       style = _ref$style === undefined ? {} : _ref$style,
       props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style"]);
 
-  return _react2.default.createElement("div", { style: { fontFamily: "Verdana" }, __source: {
+  return _react2.default.createElement("div", {
+    style: {
+      fontFamily: "Verdana"
+    },
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     }

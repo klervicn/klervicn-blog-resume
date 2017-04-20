@@ -1,1 +1,1 @@
-export const titlesColor = "#3333cc";
+export const titlesColor = "#bfbfbf";

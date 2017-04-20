@@ -16,7 +16,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\LineLabel.js";
 
-// Aligné à gacuche, en gras ?
 exports.default = function (_ref) {
   var children = _ref.children,
       style = _ref.style,
@@ -26,11 +25,12 @@ exports.default = function (_ref) {
 
   return _react2.default.createElement("label", {
     style: {
-      display: "table-cell"
+      display: "table-cell",
+      fontSize: 16
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     }
   }, children);
 };

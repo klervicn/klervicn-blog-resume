@@ -25,7 +25,9 @@ exports.default = function (_ref) {
   return _react2.default.createElement("div", {
     style: {
       display: "table-cell",
-      paddingLeft: 10
+      paddingLeft: 10,
+      textAlign: "justify",
+      fontSize: 14
     },
     __source: {
       fileName: _jsxFileName,

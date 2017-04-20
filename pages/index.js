@@ -30,15 +30,11 @@ export default class Home extends React.Component {
             </Line>
             <Line>
               <LineLabel>Mail</LineLabel>
-            </Line>
-            <Line>
-              <LineLabel>Age</LineLabel>
-            </Line>
-            <Line>
-              <LineLabel>Tel</LineLabel>
+              <LineContent>corbel.klervi@gmail.com</LineContent>
             </Line>
             <Line>
               <LineLabel>Permis</LineLabel>
+              <LineContent> B / Véhicule </LineContent>
             </Line>
           </Tab>
         </Section>

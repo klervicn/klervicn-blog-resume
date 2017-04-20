@@ -151,52 +151,57 @@ var Home = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 32
         }
-      }, "Mail")), _react2.default.createElement(_Line2.default, {
+      }, "Mail"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 33
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "corbel.klervi@gmail.com")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
         }
-      }, "Age")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
+      }, "Permis"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        }
-      }, "Tel")), _react2.default.createElement(_Line2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, " B / V\xE9hicule ")))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41
         }
-      }, "Permis")))), _react2.default.createElement(_Section2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        }
       }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 42
         }
       }, "Formation"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 43
         }
       }, _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        }
+      }, "2015"), _react2.default.createElement(_CaptionLine2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        }
+      }, "Ecole CS2i")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
@@ -206,185 +211,170 @@ var Home = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 49
         }
-      }, "2015"), _react2.default.createElement(_CaptionLine2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        }
-      }, "Ecole CS2i")), _react2.default.createElement(_Line2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "2014")))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
         }
-      }, "2014")))), _react2.default.createElement(_Section2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        }
       }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 54
         }
       }, "Comp\xE9tences techniques"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 55
         }
       }, _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 56
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 57
         }
       }, "Anglais")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 59
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 60
         }
       }, "Espagnol")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 62
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 63
         }
       }, "Langages")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 65
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 66
         }
       }, "Logiciels")))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 70
         }
       }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 71
         }
       }, "Exp\xE9riences Professionnelles"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 72
         }
       }, _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 73
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 74
         }
       }, "Ubisoft")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 76
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 77
         }
       }, "Cognizant")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 79
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 80
         }
       }, "Auto-entrepreneur")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 82
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 83
         }
       }, "Gamac Informatique")))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 87
         }
       }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 88
         }
       }, "Loisirs et autres activit\xE9s"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 89
         }
       }, _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 90
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 91
         }
       }, "Loutres")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 93
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 94
         }
       }, "Bernards l'ermite")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 96
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 97
         }
       }, "Emeus")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 99
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 100
         }
       }, "Sharkyfication")))));
     }
