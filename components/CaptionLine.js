@@ -1,8 +1,15 @@
 import React from "react";
 
-// Mettre en italique et bcp plus petit, même alignement que les lignes
 export default ({ children, style = {}, ...props }) => (
-  <div>
-    <p>{children}</p>
+  <div
+    style={{
+      display: "table-cell",
+      paddingLeft: 10,
+      textAlign: "justify",
+      fontSize: 12,
+      fontStyle: "italic"
+    }}
+  >
+    {children}
   </div>
 );

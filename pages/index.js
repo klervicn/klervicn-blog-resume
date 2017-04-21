@@ -43,6 +43,9 @@ export default class Home extends React.Component {
           <Tab>
             <Line>
               <LineLabel>2015</LineLabel>
+              <LineContent>
+                Première année en Master de Management de systèmes d'information informatisés
+              </LineContent>
               <CaptionLine>Ecole CS2i</CaptionLine>
             </Line>
             <Line>
