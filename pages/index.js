@@ -43,13 +43,27 @@ export default class Home extends React.Component {
           <Tab>
             <Line>
               <LineLabel>2015</LineLabel>
-              <LineContent>
+              <LineContent caption="Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)">
                 Première année en Master de Management de systèmes d'information informatisés
               </LineContent>
-              <CaptionLine>Ecole CS2i</CaptionLine>
             </Line>
             <Line>
               <LineLabel>2014</LineLabel>
+              <LineContent caption="Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)">
+                Diplôme de Conception de systèmes d'information informatisés (CSI]) Mention Bien en alternance
+              </LineContent>
+            </Line>
+            <Line>
+              <LineLabel>2013</LineLabel>
+              <LineContent caption="IUT du Limousin (Limoges 87)">
+                Diplôme Universitaire de Technologie en Informatique
+              </LineContent>
+            </Line>
+            <Line>
+              <LineLabel>2011</LineLabel>
+              <LineContent caption="Lycée Raymond Loewy (La Souterraine 23)">
+                Baccalauréat Economique et Social Option Maths Mention Bien
+              </LineContent>
             </Line>
           </Tab>
         </Section>
@@ -58,9 +72,11 @@ export default class Home extends React.Component {
           <Tab>
             <Line>
               <LineLabel>Anglais</LineLabel>
+              <LineContent>Courant, techinque : TOEIC 960 points</LineContent>
             </Line>
             <Line>
               <LineLabel>Espagnol</LineLabel>
+              <LineContent>Correct</LineContent>
             </Line>
             <Line>
               <LineLabel>Langages</LineLabel>

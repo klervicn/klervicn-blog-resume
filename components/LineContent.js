@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ children, style = {}, ...props }) => (
+export default ({ children, caption, style = {}, ...props }) => (
   <div
     style={{
       display: "table-cell",
@@ -10,5 +10,15 @@ export default ({ children, style = {}, ...props }) => (
     }}
   >
     {children}
+    <p
+      style={{
+        display: "table-cell",
+        textAlign: "justify",
+        fontSize: 12,
+        fontStyle: "italic"
+      }}
+    >
+      {caption}
+    </p>
   </div>
 );

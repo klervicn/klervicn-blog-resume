@@ -22,7 +22,7 @@ var _Name2 = _interopRequireDefault(_Name);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\TitleSection.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\TitleSection.js";
 
 exports.default = function (_ref) {
   var _ref$style = _ref.style,
