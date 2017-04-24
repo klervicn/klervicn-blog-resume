@@ -4,7 +4,7 @@ export default ({ children, style = {}, ...props }) => (
   <ul
     style={{
       display: "table",
-      padding: 0
+      paddingLeft: 0
     }}
   >
     {children}

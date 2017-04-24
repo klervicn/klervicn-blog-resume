@@ -22,31 +22,28 @@ var _Name2 = _interopRequireDefault(_Name);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\TitleSection.js";
+var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\TitleSection.js";
 
 exports.default = function (_ref) {
   var _ref$style = _ref.style,
       style = _ref$style === undefined ? {} : _ref$style,
       props = (0, _objectWithoutProperties3.default)(_ref, ["style"]);
 
-  return _react2.default.createElement("div", {
-    __source: {
+  return _react2.default.createElement("div", { style: {}, __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, _react2.default.createElement(_Name2.default, { name: "Klervi Corbel", __source: {
+  }, _react2.default.createElement(_Name2.default, { style: {}, name: "Klervi Corbel", __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }), _react2.default.createElement("h2", {
-    __source: {
+  }), _react2.default.createElement("h2", { style: {}, __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, "Titre"), _react2.default.createElement("h2", {
-    __source: {
+  }, "Titre"), _react2.default.createElement("h2", { style: {}, __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     }
   }, "Photo"));
 };

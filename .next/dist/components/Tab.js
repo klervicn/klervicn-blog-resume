@@ -14,7 +14,7 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\Tab.js";
+var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\Tab.js";
 
 exports.default = function (_ref) {
   var children = _ref.children,
@@ -25,7 +25,7 @@ exports.default = function (_ref) {
   return _react2.default.createElement("ul", {
     style: {
       display: "table",
-      padding: 0
+      paddingLeft: 0
     },
     __source: {
       fileName: _jsxFileName,

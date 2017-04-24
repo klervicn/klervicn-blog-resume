@@ -50,7 +50,7 @@ export default class Home extends React.Component {
             <Line>
               <LineLabel>2014</LineLabel>
               <LineContent caption="Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)">
-                Diplôme de Conception de systèmes d'information informatisés (CSI]) Mention Bien en alternance
+                Diplôme de Conception de systèmes d'information informatisés (CSI) Mention Bien en alternance
               </LineContent>
             </Line>
             <Line>

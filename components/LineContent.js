@@ -4,7 +4,7 @@ export default ({ children, caption, style = {}, ...props }) => (
   <div
     style={{
       display: "table-cell",
-      paddingLeft: 10,
+      paddingLeft: 30,
       textAlign: "justify",
       fontSize: 14
     }}

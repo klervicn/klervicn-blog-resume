@@ -66,7 +66,7 @@ var _Tab2 = _interopRequireDefault(_Tab);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\pages\\index.js?entry";
+var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\pages\\index.js?entry";
 
 
 var Home = function (_React$Component) {
@@ -214,7 +214,7 @@ var Home = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 52
         }
-      }, "Dipl\xF4me de Conception de syst\xE8mes d'information informatis\xE9s (CSI]) Mention Bien en alternance")), _react2.default.createElement(_Line2.default, {
+      }, "Dipl\xF4me de Conception de syst\xE8mes d'information informatis\xE9s (CSI) Mention Bien en alternance")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56
