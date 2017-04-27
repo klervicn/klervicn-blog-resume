@@ -22,28 +22,40 @@ var _Name2 = _interopRequireDefault(_Name);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\TitleSection.js";
+var _jsxFileName = "C:\\Users\\Nayru\\Documents\\JS\\klervicn-resume\\components\\TitleSection.js";
 
 exports.default = function (_ref) {
-  var _ref$style = _ref.style,
-      style = _ref$style === undefined ? {} : _ref$style,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["style"]);
+  var style = _ref.style,
+      title = _ref.title,
+      _ref$name = _ref.name,
+      name = _ref$name === undefined ? {} : _ref$name,
+      props = (0, _objectWithoutProperties3.default)(_ref, ["style", "title", "name"]);
 
-  return _react2.default.createElement("div", { style: {}, __source: {
+  return _react2.default.createElement("div", {
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     }
-  }, _react2.default.createElement(_Name2.default, { style: {}, name: "Klervi Corbel", __source: {
+  }, _react2.default.createElement("div", { style: {}, __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     }
-  }), _react2.default.createElement("h2", { style: {}, __source: {
+  }, _react2.default.createElement("img", {
+    style: {
+      height: 128
+    },
+    src: "../static/picture.png",
+    __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, "Titre"), _react2.default.createElement("h2", { style: {}, __source: {
+  }), _react2.default.createElement(_Name2.default, { style: {}, name: name, __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     }
-  }, "Photo"));
+  })), _react2.default.createElement("h2", { style: {}, __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    }
+  }, title));
 };

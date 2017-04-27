@@ -2,14 +2,19 @@ import React from "react";
 import Head from "next/head";
 import Name from "../components/Name";
 
-export default ({ style = {}, ...props }) => (
-  <div style={{}}>
-    <Name style={{}} name="Klervi Corbel" />
+export default ({ style, title, name = {}, ...props }) => (
+  <div>
+    <div style={{}}>
+      <img
+        style={{
+          height: 128
+        }}
+        src="../static/picture.png"
+      />
+      <Name style={{}} name={name} />
+    </div>
     <h2 style={{}}>
-      Titre
-    </h2>
-    <h2 style={{}}>
-      Photo
+      {title}
     </h2>
   </div>
 );
