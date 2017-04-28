@@ -16,7 +16,7 @@ var _colors = require("../styles/colors");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\Nayru\\Documents\\JS\\klervicn-resume\\components\\Name.js";
+var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\Name.js";
 
 exports.default = function (_ref) {
   var name = _ref.name,

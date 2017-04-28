@@ -19,7 +19,9 @@ export default class Home extends React.Component {
           </Head>
         </div>
         <Section>
-          <TitleSection name="Klervi Corbel" title="Dev Tester" />
+          <Tab>
+            <TitleSection name="Klervi Corbel" title="Dev Tester" />
+          </Tab>
         </Section>
         <Section>
           <HeadLabel>Informations personnelles</HeadLabel>
@@ -43,17 +45,13 @@ export default class Home extends React.Component {
           <Tab>
             <Line>
               <LineLabel>2015</LineLabel>
-              <LineContent
-                caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)"
-              >
+              <LineContent caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)">
                 Première année en Master de Management de systèmes d'information informatisés
               </LineContent>
             </Line>
             <Line>
               <LineLabel>2014</LineLabel>
-              <LineContent
-                caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)"
-              >
+              <LineContent caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)">
                 Diplôme de Conception de systèmes d'information informatisés (CSI) Mention Bien en alternance
               </LineContent>
             </Line>
