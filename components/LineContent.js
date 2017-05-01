@@ -6,7 +6,7 @@ export default ({ children, caption, style = {}, ...props }) => (
       display: "table-cell",
       paddingLeft: 30,
       textAlign: "justify",
-      fontSize: 14
+      fontSize: 13
     }}
   >
     {children}
@@ -14,7 +14,7 @@ export default ({ children, caption, style = {}, ...props }) => (
       style={{
         display: "table-cell",
         textAlign: "justify",
-        fontSize: 12,
+        fontSize: 11,
         fontStyle: "italic"
       }}
     >

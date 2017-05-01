@@ -16,13 +16,12 @@ var _colors = require("../styles/colors");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\Name.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\Name.js";
 
 exports.default = function (_ref) {
-  var name = _ref.name,
-      _ref$style = _ref.style,
-      style = _ref$style === undefined ? {} : _ref$style,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["name", "style"]);
+  var _ref$name = _ref.name,
+      name = _ref$name === undefined ? {} : _ref$name,
+      props = (0, _objectWithoutProperties3.default)(_ref, ["name"]);
 
   return _react2.default.createElement("div", {
     __source: {

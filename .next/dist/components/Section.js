@@ -14,13 +14,12 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\Section.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\Section.js";
 
 exports.default = function (_ref) {
-  var children = _ref.children,
-      _ref$style = _ref.style,
-      style = _ref$style === undefined ? {} : _ref$style,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["children", "style"]);
+  var _ref$children = _ref.children,
+      children = _ref$children === undefined ? {} : _ref$children,
+      props = (0, _objectWithoutProperties3.default)(_ref, ["children"]);
 
   return _react2.default.createElement("div", {
     style: {

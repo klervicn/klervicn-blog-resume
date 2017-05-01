@@ -13,11 +13,9 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <div>
-          <Head>
-            <title>Klervi Corbel</title>
-          </Head>
-        </div>
+        <Head>
+          <title>Klervi Corbel</title>
+        </Head>
         <Section>
           <Tab>
             <TitleSection name="Klervi Corbel" title="Dev Tester" />
@@ -29,6 +27,10 @@ export default class Home extends React.Component {
             <Line>
               <LineLabel>Adresse</LineLabel>
               <LineContent>6 rue Delouvain 75019 Paris</LineContent>
+            </Line>
+            <Line>
+              <LineLabel>Date de naissance</LineLabel>
+              <LineContent>16/04/1993</LineContent>
             </Line>
             <Line>
               <LineLabel>Mail</LineLabel>
@@ -46,13 +48,13 @@ export default class Home extends React.Component {
             <Line>
               <LineLabel>2015</LineLabel>
               <LineContent caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)">
-                Première année en Master de Management de systèmes d'information informatisés
+                Première année en Master de Management de Systèmes d'Information
               </LineContent>
             </Line>
             <Line>
               <LineLabel>2014</LineLabel>
               <LineContent caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)">
-                Diplôme de Conception de systèmes d'information informatisés (CSI) Mention Bien en alternance
+                Diplôme de Conception de Systèmes d'Information (CSI) Mention Bien en alternance
               </LineContent>
             </Line>
             <Line>
@@ -82,9 +84,31 @@ export default class Home extends React.Component {
             </Line>
             <Line>
               <LineLabel>Langages</LineLabel>
+              <LineContent>
+                Progress OpenEdge (L4G), Dot.Net, C++, C#, JAVA, SQL
+              </LineContent>
             </Line>
             <Line>
-              <LineLabel>Logiciels</LineLabel>
+              <LineLabel>Systèmes</LineLabel>
+              <LineContent>Windows, UNIX.</LineContent>
+            </Line>
+            <Line>
+              <LineLabel>IDE</LineLabel>
+              <LineContent>Eclipse, Visual Studio, Atom</LineContent>
+            </Line>
+            <LineLabel>
+              Versionning
+            </LineLabel>
+            <LineContent>
+              GIT
+            </LineContent>
+            <Line>
+              <LineLabel>Serveurs</LineLabel>
+              <LineContent>Tomcat, WAMP</LineContent>
+            </Line>
+            <Line>
+              <LineLabel>Autres Outils</LineLabel>
+              <LineContent>Suite Office</LineContent>
             </Line>
           </Tab>
         </Section>
@@ -92,16 +116,28 @@ export default class Home extends React.Component {
           <HeadLabel>Expériences Professionnelles</HeadLabel>
           <Tab>
             <Line>
-              <LineLabel>Ubisoft</LineLabel>
+              <LineLabel>Depuis Juillet 2016</LineLabel>
+              <LineContent caption="Ubisoft Paris Studio (Montreuil 93)">
+                Dev Tester. Exécution de tests sur les fonctionnalités online et coop de sur le projet Ghost Recon Wildlands
+              </LineContent>
             </Line>
             <Line>
-              <LineLabel>Cognizant</LineLabel>
+              <LineLabel>2015-2016</LineLabel>
+              <LineContent caption="Cognizant Technology Solutions (Grenoble 38)">
+                Testeuse logicielle. Assurance qualité, rédaction de stratégies, plans de tests, et exécution. Formation de 3 semaines en Inde et en anglais.
+              </LineContent>
             </Line>
             <Line>
-              <LineLabel>Auto-entrepreneur</LineLabel>
+              <LineLabel>Depuis 2014</LineLabel>
+              <LineContent>
+                Auto-entrepreneuse. Animatrice WebTV, création de contenu gaming, couverture d'événements e-sport ou non, shoutcast, gestion de réseaux sociaux, de planning, de communauté et d'équipe.
+              </LineContent>
             </Line>
             <Line>
-              <LineLabel>Gamac Informatique</LineLabel>
+              <LineLabel>2013-2015</LineLabel>
+              <LineContent caption="Gamac Infomatique (La Souterraine 23)">
+                Alternance : Développement en Progress OpenEdge, utilisation de composant Dot.Net, reprise d'un projet de gestion electronique de documents (factures), analyse, conception et développement d'applications de gestion, assistance aux utilisateurs
+              </LineContent>
             </Line>
           </Tab>
         </Section>

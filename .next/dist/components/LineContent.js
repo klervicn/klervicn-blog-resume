@@ -14,7 +14,7 @@ var _react2 = _interopRequireDefault(_react);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\LineContent.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\LineContent.js";
 
 exports.default = function (_ref) {
   var children = _ref.children,
@@ -28,7 +28,7 @@ exports.default = function (_ref) {
       display: "table-cell",
       paddingLeft: 30,
       textAlign: "justify",
-      fontSize: 14
+      fontSize: 13
     },
     __source: {
       fileName: _jsxFileName,
@@ -38,7 +38,7 @@ exports.default = function (_ref) {
     style: {
       display: "table-cell",
       textAlign: "justify",
-      fontSize: 12,
+      fontSize: 11,
       fontStyle: "italic"
     },
     __source: {

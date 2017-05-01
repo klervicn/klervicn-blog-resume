@@ -66,7 +66,7 @@ var _Tab2 = _interopRequireDefault(_Tab);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\pages\\index.js?entry";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\pages\\index.js?entry";
 
 
 var Home = function (_React$Component) {
@@ -86,340 +86,432 @@ var Home = function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 15
         }
-      }, _react2.default.createElement("div", {
+      }, _react2.default.createElement(_head2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
-      }, _react2.default.createElement(_head2.default, {
+      }, _react2.default.createElement("title", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }, _react2.default.createElement("title", {
+      }, "Klervi Corbel")), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }, "Klervi Corbel"))), _react2.default.createElement(_Section2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 19
         }
       }, _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 20
         }
       }, _react2.default.createElement(_TitleSection2.default, { name: "Klervi Corbel", title: "Dev Tester", __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 21
         }
       }))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 24
         }
       }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 25
         }
       }, "Informations personnelles"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 26
         }
       }, _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 27
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 28
         }
       }, "Adresse"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 29
         }
       }, "6 rue Delouvain 75019 Paris")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 31
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 32
         }
-      }, "Mail"), _react2.default.createElement(_LineContent2.default, {
+      }, "Date de naissance"), _react2.default.createElement(_LineContent2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      }, "16/04/1993")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
         }
-      }, "corbel.klervi@gmail.com")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        }
+      }, "Mail"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        }
-      }, "Permis"), _react2.default.createElement(_LineContent2.default, {
+      }, "corbel.klervi@gmail.com")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        }
+      }, "Permis"), _react2.default.createElement(_LineContent2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        }
       }, " B / V\xE9hicule ")))), _react2.default.createElement(_Section2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        }
-      }, _react2.default.createElement(_HeadLabel2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        }
-      }, "Formation"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 45
         }
-      }, _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Formation"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
         }
-      }, "2015"), _react2.default.createElement(_LineContent2.default, { caption: "Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)", __source: {
+      }, _react2.default.createElement(_Line2.default, {
+        __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         }
-      }, "Premi\xE8re ann\xE9e en Master de Management de syst\xE8mes d'information informatis\xE9s")), _react2.default.createElement(_Line2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 49
         }
-      }, "2014"), _react2.default.createElement(_LineContent2.default, { caption: "Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)", __source: {
+      }, "2015"), _react2.default.createElement(_LineContent2.default, { caption: "Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        }
+      }, "Premi\xE8re ann\xE9e en Master de Management de Syst\xE8mes d'Information")), _react2.default.createElement(_Line2.default, {
+        __source: {
           fileName: _jsxFileName,
           lineNumber: 54
         }
-      }, "Dipl\xF4me de Conception de syst\xE8mes d'information informatis\xE9s (CSI) Mention Bien en alternance")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 55
+        }
+      }, "2014"), _react2.default.createElement(_LineContent2.default, { caption: "Ecole CS2i (Limoges 87) & Gamac Informatique (La Souterraine 23)", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        }
+      }, "Dipl\xF4me de Conception de Syst\xE8mes d'Information (CSI) Mention Bien en alternance")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 61
         }
       }, "2013"), _react2.default.createElement(_LineContent2.default, { caption: "IUT du Limousin (Limoges 87)", __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 62
         }
       }, "Dipl\xF4me Universitaire de Technologie en Informatique")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 66
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 67
         }
       }, "2011"), _react2.default.createElement(_LineContent2.default, { caption: "Lyc\xE9e Raymond Loewy (La Souterraine 23)", __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 68
         }
       }, "Baccalaur\xE9at Economique et Social Option Maths Mention Bien")))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
-        }
-      }, _react2.default.createElement(_HeadLabel2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        }
-      }, "Comp\xE9tences techniques"), _react2.default.createElement(_Tab2.default, {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 74
         }
-      }, _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_HeadLabel2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 75
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Comp\xE9tences techniques"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 76
         }
-      }, "Anglais"), _react2.default.createElement(_LineContent2.default, {
+      }, _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 77
         }
-      }, "Courant, techinque : TOEIC 960 points")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 78
+        }
+      }, "Anglais"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        }
-      }, "Espagnol"), _react2.default.createElement(_LineContent2.default, {
+      }, "Courant, techinque : TOEIC 960 points")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 81
         }
-      }, "Correct")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 82
+        }
+      }, "Espagnol"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 83
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Correct")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 85
         }
-      }, "Langages")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 86
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Langages"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 87
         }
-      }, "Logiciels")))), _react2.default.createElement(_Section2.default, {
+      }, "Progress OpenEdge (L4G), Dot.Net, C++, C#, JAVA, SQL")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 91
         }
-      }, _react2.default.createElement(_HeadLabel2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 92
         }
-      }, "Exp\xE9riences Professionnelles"), _react2.default.createElement(_Tab2.default, {
+      }, "Syst\xE8mes"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 93
         }
-      }, _react2.default.createElement(_Line2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Windows, UNIX.")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 95
         }
-      }, "Ubisoft")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 96
+        }
+      }, "IDE"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 97
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Eclipse, Visual Studio, Atom")), _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 99
         }
-      }, "Cognizant")), _react2.default.createElement(_Line2.default, {
+      }, "Versionning"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 102
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "GIT"), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
-        }
-      }, "Auto-entrepreneur")), _react2.default.createElement(_Line2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 105
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 106
         }
-      }, "Gamac Informatique")))), _react2.default.createElement(_Section2.default, {
+      }, "Serveurs"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 107
         }
-      }, _react2.default.createElement(_HeadLabel2.default, {
+      }, "Tomcat, WAMP")), _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 109
         }
-      }, "Loisirs et autres activit\xE9s"), _react2.default.createElement(_Tab2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 110
         }
-      }, _react2.default.createElement(_Line2.default, {
+      }, "Autres Outils"), _react2.default.createElement(_LineContent2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 111
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112
-        }
-      }, "Loutres")), _react2.default.createElement(_Line2.default, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114
-        }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, "Suite Office")))), _react2.default.createElement(_Section2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 115
         }
-      }, "Bernards l'ermite")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_HeadLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 116
+        }
+      }, "Exp\xE9riences Professionnelles"), _react2.default.createElement(_Tab2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 117
         }
-      }, _react2.default.createElement(_LineLabel2.default, {
+      }, _react2.default.createElement(_Line2.default, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 118
         }
-      }, "Emeus")), _react2.default.createElement(_Line2.default, {
+      }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 119
+        }
+      }, "Depuis Juillet 2016"), _react2.default.createElement(_LineContent2.default, { caption: "Ubisoft Paris Studio (Montreuil 93)", __source: {
+          fileName: _jsxFileName,
           lineNumber: 120
+        }
+      }, "Dev Tester. Ex\xE9cution de tests sur les fonctionnalit\xE9s online et coop de sur le projet Ghost Recon Wildlands")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 124
         }
       }, _react2.default.createElement(_LineLabel2.default, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 125
+        }
+      }, "2015-2016"), _react2.default.createElement(_LineContent2.default, { caption: "Cognizant Technology Solutions (Grenoble 38)", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126
+        }
+      }, "Testeuse logicielle. Assurance qualit\xE9, r\xE9daction de strat\xE9gies, plans de tests, et ex\xE9cution. Formation de 3 semaines en Inde et en anglais.")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 130
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 131
+        }
+      }, "Depuis 2014"), _react2.default.createElement(_LineContent2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 132
+        }
+      }, "Auto-entrepreneuse. Animatrice WebTV, cr\xE9ation de contenu gaming, couverture d'\xE9v\xE9nements e-sport ou non, shoutcast, gestion de r\xE9seaux sociaux, de planning, de communaut\xE9 et d'\xE9quipe.")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 136
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 137
+        }
+      }, "2013-2015"), _react2.default.createElement(_LineContent2.default, { caption: "Gamac Infomatique (La Souterraine 23)", __source: {
+          fileName: _jsxFileName,
+          lineNumber: 138
+        }
+      }, "Alternance : D\xE9veloppement en Progress OpenEdge, utilisation de composant Dot.Net, reprise d'un projet de gestion electronique de documents (factures), analyse, conception et d\xE9veloppement d'applications de gestion, assistance aux utilisateurs")))), _react2.default.createElement(_Section2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 144
+        }
+      }, _react2.default.createElement(_HeadLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 145
+        }
+      }, "Loisirs et autres activit\xE9s"), _react2.default.createElement(_Tab2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 146
+        }
+      }, _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
+        }
+      }, "Loutres")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 150
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151
+        }
+      }, "Bernards l'ermite")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 154
+        }
+      }, "Emeus")), _react2.default.createElement(_Line2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 156
+        }
+      }, _react2.default.createElement(_LineLabel2.default, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 157
         }
       }, "Sharkyfication")))));
     }

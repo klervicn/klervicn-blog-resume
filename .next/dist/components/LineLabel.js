@@ -12,9 +12,11 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _colors = require("../styles/colors");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\LineLabel.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\LineLabel.js";
 
 exports.default = function (_ref) {
   var children = _ref.children,
@@ -26,12 +28,14 @@ exports.default = function (_ref) {
   return _react2.default.createElement("label", {
     style: {
       display: "table-cell",
-      fontSize: 16,
-      width: 110
+      fontSize: 15,
+      width: 130,
+      paddingTop: 5,
+      color: _colors.labelColor
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 5
     }
   }, children);
 };

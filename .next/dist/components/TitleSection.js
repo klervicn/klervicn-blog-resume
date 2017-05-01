@@ -22,14 +22,13 @@ var _Name2 = _interopRequireDefault(_Name);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "C:\\Users\\kcorbel\\Documents\\JS\\klervicn-resume\\components\\TitleSection.js";
+var _jsxFileName = "C:\\Users\\Klervi\\JS\\klervicn-resume\\components\\TitleSection.js";
 
 exports.default = function (_ref) {
-  var style = _ref.style,
-      title = _ref.title,
+  var title = _ref.title,
       _ref$name = _ref.name,
       name = _ref$name === undefined ? {} : _ref$name,
-      props = (0, _objectWithoutProperties3.default)(_ref, ["style", "title", "name"]);
+      props = (0, _objectWithoutProperties3.default)(_ref, ["title", "name"]);
 
   return _react2.default.createElement("div", {
     __source: {

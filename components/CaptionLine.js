@@ -1,6 +1,6 @@
 import React from "react";
 
-export default ({ children, style = {}, ...props }) => (
+export default ({ children = {}, ...props }) => (
   <div
     style={{
       display: "table-cell",
