@@ -1,10 +1,10 @@
-import React from "react";
-import Head from "next/head";
-import Name from "../components/Name";
+import React from 'react';
+import Head from 'next/head';
+import Name from '../components/Name';
 
-export default ({ title, name = {}, ...props }) => (
+export default ({ title, name = {} }) => (
   <div>
-    <div style={{ display: "table-cell" }}>
+    <div style={{ display: 'table-cell' }}>
       <img
         style={{
           height: 128
@@ -14,8 +14,8 @@ export default ({ title, name = {}, ...props }) => (
     </div>
     <div
       style={{
-        display: "table-cell",
-        verticalAlign: "top",
+        display: 'table-cell',
+        verticalAlign: 'top',
         paddingLeft: 10
       }}
     >

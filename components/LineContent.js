@@ -1,21 +1,21 @@
-import React from "react";
+import React from 'react';
 
-export default ({ children, caption, style = {}, ...props }) => (
+export default ({ caption, children = {} }) => (
   <div
     style={{
-      display: "table-cell",
+      display: 'table-cell',
       paddingLeft: 30,
-      textAlign: "justify",
+      textAlign: 'justify',
       fontSize: 13
     }}
   >
     {children}
     <p
       style={{
-        display: "table-cell",
-        textAlign: "justify",
+        display: 'table-cell',
+        textAlign: 'justify',
         fontSize: 11,
-        fontStyle: "italic"
+        fontStyle: 'italic'
       }}
     >
       {caption}

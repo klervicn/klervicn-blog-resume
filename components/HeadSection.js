@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-export default ({ children, style = {}, ...props }) => (
+export default ({ children }) => (
   <div>
     {children}
   </div>

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-export default ({ children = {}, ...props }) => (
+export default ({ children }) => (
   <div
     style={{
-      fontFamily: "Verdana"
+      fontFamily: 'Verdana'
     }}
   >
     {children}

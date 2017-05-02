@@ -1,13 +1,12 @@
-import React from "react";
-import Head from "next/head";
-import TitleSection from "../components/TitleSection";
-import Section from "../components/Section";
-import LineLabel from "../components/LineLabel";
-import Line from "../components/Line";
-import CaptionLine from "../components/CaptionLine";
-import HeadLabel from "../components/HeadLabel";
-import LineContent from "../components/LineContent";
-import Tab from "../components/Tab";
+import React from 'react';
+import Head from 'next/head';
+import TitleSection from '../components/TitleSection';
+import Section from '../components/Section';
+import LineLabel from '../components/LineLabel';
+import Line from '../components/Line';
+import HeadLabel from '../components/HeadLabel';
+import LineContent from '../components/LineContent';
+import Tab from '../components/Tab';
 
 export default () => (
   <div>
