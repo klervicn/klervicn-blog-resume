@@ -1,5 +1,6 @@
 import React from 'react';
-import { contentSize } from '../styles/sizes';
+import { lineContentSize } from '../styles/sizes';
+import { lineCaptionSize } from '../styles/sizes';
 
 export default ({ caption, children = {} }) => (
   <div
@@ -7,15 +8,15 @@ export default ({ caption, children = {} }) => (
       display: 'table-cell',
       paddingLeft: 30,
       textAlign: 'justify',
-      fontSize: contentSize
+      fontSize: lineContentSize,
+      lineHeight: '1.5em'
     }}
   >
     {children}
     <p
       style={{
         display: 'table-cell',
-        textAlign: 'justify',
-        fontSize: 11,
+        fontSize: lineCaptionSize,
         fontStyle: 'italic'
       }}
     >

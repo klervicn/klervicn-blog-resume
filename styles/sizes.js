@@ -1,3 +1,4 @@
-export const captionSize = 12;
+export const lineCaptionSize = 11;
 export const headLabelSize = 20;
-export const contentSize = 13;
+export const lineContentSize = 13;
+export const lineLabelSize = 15;

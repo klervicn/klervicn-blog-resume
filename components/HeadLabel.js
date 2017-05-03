@@ -1,5 +1,5 @@
 import React from 'react';
-import { labelColor } from '../styles/colors';
+import { headLabelColor } from '../styles/colors';
 import { headLabelSize } from '../styles/sizes';
 
 export default ({ children }) => (
@@ -10,7 +10,7 @@ export default ({ children }) => (
       borderColor: '#bfbfbf',
       textAlign: 'center',
       fontSize: headLabelSize,
-      color: labelColor
+      color: headLabelColor
     }}
   >
     {children}

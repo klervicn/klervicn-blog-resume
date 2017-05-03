@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Name from '../components/Name';
+import { labelColor } from '../styles/colors';
 
 export default ({ title, name = {} }) => (
   <div>
@@ -21,7 +22,7 @@ export default ({ title, name = {} }) => (
     >
       <Name style={{}} name={name} />
 
-      <h2 style={{}}>
+      <h2 style={{ color: labelColor }}>
         {title}
       </h2>
     </div>
