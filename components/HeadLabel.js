@@ -12,14 +12,14 @@ const localizedStrings = {
   },
   en: {
     personalInformation: 'Personal Information',
-    formation: 'Formation',
+    formation: 'Education',
     skills: 'Technical Skills',
-    xp: 'Professional Experience',
-    other: 'Others'
+    xp: 'Work Experience',
+    other: 'Miscellaneous'
   }
 };
 
-export default ({ content, language = {} }) => (
+export default ({ content, language }) => (
   <h2
     style={{
       fontWeight: 'normal',

@@ -9,8 +9,8 @@ import LineContent from '../components/LineContent';
 import Tab from '../components/Tab';
 
 const localizedStrings = {
-  fr: { buttonText: 'Version Anglaise' },
-  en: { buttonText: 'French Version' }
+  fr: { buttonText: 'English version' },
+  en: { buttonText: 'Version française' }
 };
 
 export default class Home extends React.PureComponent {
@@ -21,10 +21,11 @@ export default class Home extends React.PureComponent {
       language: 'fr'
     };
 
-    this.updateLanguage = this.updateLanguage.bind(this);
+    this.switchLanguage = this.switchLanguage.bind(this);
   }
 
-  updateLanguage() {
+  switchLanguage(e) {
+    e.preventDefault();
     if (this.state.language === 'fr') {
       this.setState({
         language: 'en'
@@ -37,6 +38,8 @@ export default class Home extends React.PureComponent {
   }
 
   render() {
+    const language = this.state.language;
+
     return (
       <div>
         <Head>
@@ -46,157 +49,145 @@ export default class Home extends React.PureComponent {
           <Tab>
             <TitleSection name="Klervi Corbel" title="Dev Tester" />
           </Tab>
+          <button
+            type="button"
+            onClick={this.switchLanguage}
+            style={{
+              color: '#ffffff',
+              fontFamily: 'Verdana',
+              borderRadius: '4px',
+              background: '#f26d6d',
+              textDecoration: 'none',
+              padding: '10px 20px 10px 20px'
+            }}
+          >
+            {localizedStrings[this.state.language]['buttonText']}
+          </button>
         </Section>
         <Section>
-          <HeadLabel
-            language={this.state.language}
-            content="personalInformation"
-          />
+          <HeadLabel language={language} content="personalInformation" />
           <Tab>
             <Line>
-              <LineLabel language={this.state.language} content="address" />
-              <LineContent>6 rue Delouvain 75019 Paris</LineContent>
+              <LineLabel language={language} content="address" />
+              <LineContent language={language} content="address" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="birthday" />
-              <LineContent>16/04/1993</LineContent>
+              <LineLabel language={language} content="birthday" />
+              <LineContent language={language} content="birthday" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="mail" />
-              <LineContent>corbel.klervi@gmail.com</LineContent>
+              <LineLabel language={language} content="mail" />
+              <LineContent language={language} content="mail" />
             </Line>
             <Line>
-              <LineLabel
-                language={this.state.language}
-                content="driverLicense"
-              />
-              <LineContent> B / Véhicule </LineContent>
+              <LineLabel language={language} content="driverLicense" />
+              <LineContent language={language} content="driverLicense" />
             </Line>
           </Tab>
         </Section>
         <Section>
-          <HeadLabel language={this.state.language} content="formation" />
+          <HeadLabel language={language} content="formation" />
           <Tab>
             <Line>
-              <LineLabel language={this.state.language} content="2015" />
-              <LineContent caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)">
-                Première année en Master de Management de Systèmes d'Information en alternance.
-              </LineContent>
+              <LineLabel language={language} content="2015" />
+              <LineContent language={language} content="2015" caption="2015" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="2014" />
-              <LineContent caption="Ecole CS2i (Limoges 87) &amp; Gamac Informatique (La Souterraine 23)">
-                Diplôme de Conception de Systèmes d'Information (CSI) Mention Bien en alternance.
-              </LineContent>
+              <LineLabel language={language} content="2014" />
+              <LineContent language={language} content="2014" caption="2014" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="2013" />
-              <LineContent caption="IUT du Limousin (Limoges 87)">
-                Diplôme Universitaire de Technologie en Informatique.
-              </LineContent>
+              <LineLabel language={language} content="2013" />
+              <LineContent language={language} content="2013" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="2011" />
-              <LineContent caption="Lycée Raymond Loewy (La Souterraine 23)">
-                Baccalauréat Economique et Social Option Maths Mention Bien.
-              </LineContent>
+              <LineLabel language={language} content="2011" />
+              <LineContent language={language} content="2011" caption="2011" />
             </Line>
           </Tab>
         </Section>
         <Section>
-          <HeadLabel language={this.state.language} content="skills" />
+          <HeadLabel language={language} content="skills" />
           <Tab>
             <Line>
-              <LineLabel language={this.state.language} content="english" />
-              <LineContent>Courant, techinque : TOEIC 960 points</LineContent>
+              <LineLabel language={language} content="english" />
+              <LineContent language={language} content="english" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="spanish" />
-              <LineContent>Correct</LineContent>
+              <LineLabel language={language} content="spanish" />
+              <LineContent language={language} content="spanish" />
             </Line>
             <Line>
-              <LineLabel
-                language={this.state.language}
-                content="programmingLanguages"
-              />
-              <LineContent>
-                Progress OpenEdge (L4G), .NET, C#, JAVA, SQL
-              </LineContent>
+              <LineLabel language={language} content="programmingLanguages" />
+              <LineContent language={language} content="programmingLanguages" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="os" />
-              <LineContent>Windows, UNIX.</LineContent>
+              <LineLabel language={language} content="systems" />
+              <LineContent language={language} content="systems" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="ide" />
-              <LineContent>Atom, Eclipse, Visual Studio</LineContent>
+              <LineLabel language={language} content="ide" />
+              <LineContent language={language} content="ide" />
             </Line>
-            <LineLabel language={this.state.language} content="versionning" />
-            <LineContent>
-              GIT
-            </LineContent>
+            <LineLabel language={language} content="versionning" />
+            <LineContent language={language} content="versionning" />
             <Line>
-              <LineLabel language={this.state.language} content="servers" />
-              <LineContent>Tomcat, WAMP</LineContent>
+              <LineLabel language={language} content="servers" />
+              <LineContent language={language} content="servers" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="otherTools" />
-              <LineContent>JIRA, HP Quality Center, Suite Office</LineContent>
+              <LineLabel language={language} content="otherTools" />
+              <LineContent language={language} content="otherTools" />
             </Line>
           </Tab>
         </Section>
         <Section>
-          <HeadLabel language={this.state.language} content="xp" />
+          <HeadLabel language={language} content="xp" />
           <Tab>
             <Line>
-              <LineLabel
-                language={this.state.language}
+              <LineLabel language={language} content="sinceJuly2016" />
+              <LineContent
+                language={language}
                 content="sinceJuly2016"
+                caption="sinceJuly2016"
               />
-              <LineContent caption="Ubisoft Paris Studio (Montreuil 93)">
-                Dev Tester. Exécution de tests sur les fonctionnalités online et coop sur le projet Ghost Recon Wildlands.
-              </LineContent>
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="2015-2016" />
-              <LineContent caption="Cognizant Technology Solutions (Grenoble 38)">
-                Testeuse logicielle. Assurance qualité, rédaction de stratégies, plans de tests, et exécution sur desktop et mobiles. Gestion et traitement des anomalies Formation de 3 semaines en Inde et en anglais.
-              </LineContent>
+              <LineLabel language={language} content="2015-2016" />
+              <LineContent
+                language={language}
+                content="2015-2016"
+                caption="2015-2016"
+              />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="since2014" />
-              <LineContent>
-                Auto-entrepreneuse. Animatrice WebTV, création de contenu gaming, couverture d'événements e-sport ou non, shoutcast, gestion de réseaux sociaux, de planning, de communauté et d'équipe.
-              </LineContent>
+              <LineLabel language={language} content="since2014" />
+              <LineContent language={language} content="since2014" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="2013-2015" />
-              <LineContent caption="Gamac Infomatique (La Souterraine 23)">
-                Alternance : Développement en Progress OpenEdge, utilisation de composants .NET, reprise d'un projet de gestion electronique de documents (factures), analyse, conception et développement d'applications de gestion, assistance aux utilisateurs.
-              </LineContent>
+              <LineLabel language={language} content="2013-2015" />
+              <LineContent
+                language={language}
+                content="2013-2015"
+                caption="2013-2015"
+              />
             </Line>
           </Tab>
         </Section>
         <Section>
-          <HeadLabel language={this.state.language} content="other" />
+          <HeadLabel language={language} content="other" />
           <Tab>
             <Line>
-              <LineLabel language={this.state.language} content="interests" />
-              <LineContent>
-                Actualités jeux vidéo et nouvelles technologies, retrogaming, musique (covers à la guitare), sport (fitness/danse)
-              </LineContent>
+              <LineLabel language={language} content="interests" />
+              <LineContent language={language} content="interests" />
             </Line>
             <Line>
-              <LineLabel language={this.state.language} content="commitments" />
-              <LineContent>
-                Responsable partenariats pour le BDE de 3IL (Institut d'Ingénierie Informatique de Limoges) durant l'année 2014-2015
-              </LineContent>
+              <LineLabel language={language} content="commitments" />
+              <LineContent language={language} content="commitments" />
             </Line>
           </Tab>
         </Section>
-        <button type="button" onClick={this.updateLanguage}>
-          {localizedStrings[this.state.language]['buttonText']}
-        </button>
+
       </div>
     );
   }
