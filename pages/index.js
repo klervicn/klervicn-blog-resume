@@ -47,22 +47,25 @@ export default class Home extends React.PureComponent {
         </Head>
         <Section>
           <Tab>
-            <TitleSection name="Klervi Corbel" title="Dev Tester" />
+            <TitleSection name="Klervi Corbel" title="Dev | Tester | Gamer" />
+            <button
+              type="button"
+              onClick={this.switchLanguage}
+              style={{
+                color: '#ffffff',
+                fontFamily: 'Verdana',
+                borderRadius: '4px',
+                background: '#f26d6d',
+                textDecoration: 'none',
+                padding: '5px 20px 5px 20px',
+                fontSize: 10,
+                width: 130
+              }}
+            >
+              {localizedStrings[this.state.language]['buttonText']}
+            </button>
           </Tab>
-          <button
-            type="button"
-            onClick={this.switchLanguage}
-            style={{
-              color: '#ffffff',
-              fontFamily: 'Verdana',
-              borderRadius: '4px',
-              background: '#f26d6d',
-              textDecoration: 'none',
-              padding: '10px 20px 10px 20px'
-            }}
-          >
-            {localizedStrings[this.state.language]['buttonText']}
-          </button>
+
         </Section>
         <Section>
           <HeadLabel language={language} content="personalInformation" />
