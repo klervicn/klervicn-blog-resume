@@ -20,16 +20,19 @@ const localizedStrings = {
 };
 
 export default ({ content, language }) => (
-  <h2
-    style={{
-      fontWeight: 'normal',
-      borderBottom: '1px solid',
-      borderColor: '#bfbfbf',
-      textAlign: 'center',
-      fontSize: headLabelSize,
-      color: headLabelColor
-    }}
-  >
-    {localizedStrings[language][content]}
-  </h2>
+  <div>
+    <a name={content} />
+    <h2
+      style={{
+        fontWeight: 'normal',
+        borderBottom: '1px solid',
+        borderColor: '#bfbfbf',
+        textAlign: 'center',
+        fontSize: headLabelSize,
+        color: headLabelColor
+      }}
+    >
+      {localizedStrings[language][content]}
+    </h2>
+  </div>
 );

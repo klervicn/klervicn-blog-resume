@@ -7,6 +7,7 @@ import Line from '../components/Line';
 import HeadLabel from '../components/HeadLabel';
 import LineContent from '../components/LineContent';
 import Tab from '../components/Tab';
+import AnchorPanel from '../components/AnchorPanel';
 
 const localizedStrings = {
   fr: { buttonText: 'English version' },
@@ -66,11 +67,8 @@ export default class Home extends React.PureComponent {
               {localizedStrings[this.state.language]['buttonText']}
             </button>
           </Tab>
-
         </Section>
         <Section>
-          <a href="#xp">experience</a>
-          <a href="#other">autre</a>
           <HeadLabel language={language} content="personalInformation" />
           <Tab>
             <Line>
@@ -92,7 +90,6 @@ export default class Home extends React.PureComponent {
           </Tab>
         </Section>
         <Section>
-          <a name="formation" />
           <HeadLabel language={language} content="formation" />
           <Tab>
             <Line>
@@ -149,7 +146,7 @@ export default class Home extends React.PureComponent {
           </Tab>
         </Section>
         <Section>
-          <HeadLabel language={language} content="xp" name="xp" />
+          <HeadLabel language={language} content="xp" />
           <Tab>
             <Line>
               <LineLabel language={language} content="sinceJuly2016" />
@@ -182,7 +179,6 @@ export default class Home extends React.PureComponent {
           </Tab>
         </Section>
         <Section>
-          <a name="other" />
           <HeadLabel language={language} content="other" />
           <Tab>
             <Line>
