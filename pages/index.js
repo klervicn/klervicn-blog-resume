@@ -12,6 +12,7 @@ const localizedStrings = {
   fr: { buttonText: 'English version' },
   en: { buttonText: 'Version française' }
 };
+//scrollto
 
 export default class Home extends React.PureComponent {
   constructor() {
@@ -68,6 +69,8 @@ export default class Home extends React.PureComponent {
 
         </Section>
         <Section>
+          <a href="#xp">experience</a>
+          <a href="#other">autre</a>
           <HeadLabel language={language} content="personalInformation" />
           <Tab>
             <Line>
@@ -89,6 +92,7 @@ export default class Home extends React.PureComponent {
           </Tab>
         </Section>
         <Section>
+          <a name="formation" />
           <HeadLabel language={language} content="formation" />
           <Tab>
             <Line>
@@ -145,7 +149,7 @@ export default class Home extends React.PureComponent {
           </Tab>
         </Section>
         <Section>
-          <HeadLabel language={language} content="xp" />
+          <HeadLabel language={language} content="xp" name="xp" />
           <Tab>
             <Line>
               <LineLabel language={language} content="sinceJuly2016" />
@@ -178,6 +182,7 @@ export default class Home extends React.PureComponent {
           </Tab>
         </Section>
         <Section>
+          <a name="other" />
           <HeadLabel language={language} content="other" />
           <Tab>
             <Line>
