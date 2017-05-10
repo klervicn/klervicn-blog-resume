@@ -81,7 +81,8 @@ export default ({ language, content, caption }) => (
       paddingLeft: 30,
       textAlign: 'justify',
       fontSize: lineContentSize,
-      lineHeight: '1.5em'
+      lineHeight: '1.5em',
+      paddingRight: 375
     }}
   >
     {localizedStrings[language][content]}

@@ -6,7 +6,7 @@ import { labelColor } from '../styles/colors';
 
 export default ({ title, name = {} }) => (
   <div>
-    <AnchorPanel />
+
     <div style={{ display: 'table-cell' }}>
       <img
         style={{
@@ -23,6 +23,7 @@ export default ({ title, name = {} }) => (
         paddingLeft: 10
       }}
     >
+
       <Name style={{}} name={name} />
 
       <h2 style={{ color: labelColor }}>

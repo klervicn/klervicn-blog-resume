@@ -13,6 +13,7 @@ const localizedStrings = {
   fr: { buttonText: 'English version' },
   en: { buttonText: 'Version française' }
 };
+
 //scrollto
 
 export default class Home extends React.PureComponent {
@@ -47,6 +48,7 @@ export default class Home extends React.PureComponent {
         <Head>
           <title>Klervi Corbel</title>
         </Head>
+        <AnchorPanel language={language} />
         <Section>
           <Tab>
             <TitleSection name="Klervi Corbel" title="Dev | Tester | Gamer" />
