@@ -1,4 +1,5 @@
 import React from 'react';
+import { labelColor } from '../styles/colors';
 const localizedStrings = {
   fr: {
     '#personalInformation': 'Informations Personnelles',
@@ -16,31 +17,49 @@ const localizedStrings = {
   }
 };
 
+const anchorStyle = {
+  textDecoration: 'none',
+  color: labelColor,
+  fontSize: 14
+};
+
 export default ({ language }) => (
   <div
     style={{
-      backgroundColor: '#f26d6d',
-      width: '300px',
-      height: '200px',
+      backgroundColor: 'rgba(242, 109, 109, 0.5)',
+      borderRadius: '4px',
+      width: '250px',
+      height: '110px',
       top: '10px',
       right: '10px',
       position: 'sticky',
       position: 'fixed',
-      opacity: 0.25
+      fontFamily: 'Verdana'
     }}
   >
-    <div>
-      <a href="#personalInformation">
+    <div
+      style={{
+        paddingLeft: 10,
+        paddingTop: 5
+      }}
+    >
+      <a href="#personalInformation" style={anchorStyle}>
         {localizedStrings[language]['#personalInformation']}
       </a>
       <br />
-      <a href="#formation">{localizedStrings[language]['#formation']}</a>
+      <a href="#formation" style={anchorStyle}>
+        {localizedStrings[language]['#formation']}
+      </a>
       <br />
-      <a href="#skills">{localizedStrings[language]['#skills']}</a>
+      <a href="#skills" style={anchorStyle}>
+        {localizedStrings[language]['#skills']}
+      </a>
       <br />
-      <a href="#xp">{localizedStrings[language]['#xp']}</a>
+      <a href="#xp" style={anchorStyle}>{localizedStrings[language]['#xp']}</a>
       <br />
-      <a href="#other">{localizedStrings[language]['#other']}</a>
+      <a href="#other" style={anchorStyle}>
+        {localizedStrings[language]['#other']}
+      </a>
 
     </div>
   </div>
