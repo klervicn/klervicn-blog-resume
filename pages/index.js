@@ -13,9 +13,6 @@ const localizedStrings = {
   fr: { buttonText: 'English version' },
   en: { buttonText: 'Version française' }
 };
-
-const clientRect = object.getBoundingClientRect();
-
 export default class Home extends React.PureComponent {
   constructor() {
     super();
@@ -42,7 +39,6 @@ export default class Home extends React.PureComponent {
 
   render() {
     const language = this.state.language;
-    console.log(clientRect);
 
     return (
       <div>
