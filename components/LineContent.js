@@ -21,7 +21,7 @@ const localizedStrings = {
     servers: 'Tomcat, WAMP',
     otherTools: 'JIRA, HP Quality Center, Suite Office',
     sinceJuly2016: 'Dev Tester - Execution de tests sur les fonctionnalités online et coop du projet Ghost Recon Wildands',
-    '2015-2016': 'Testeuse logicielle - Assurance qualité, rédaction de stratégies, plans de tests et exécution sur desktop et mobiles. Gestion et traitement des anomalies. Formation de 3 semaines en Inde et en Anglais.',
+    '2015-2016': "Testeuse logicielle - Participation à l'acquisation des connaissances du métiers du client et à la gestion des connaissances nécessaires au projet. Création des scénarii et cas de tests, des jeux de données, exécution de tests fonctionnels sur desktop et mobile, création et suivi de fiches d'anomalies. Participation à l'analyse des résultats de tests et à la rédaction des comptes-rendus. Formation de 3 semaines en Inde et en Anglais.",
     since2014: "Auto-entrepreneuse - Animatrice WebTV, création de contenu gaming, couverture d'évènements e-sport ou non, shoutcast, gestion de réseaux sociaux, de planning, de communauté et d'équipe.",
     '2013-2015': "Developpeuse en alternance - Programmation en Progess OpenEdge (L4G), utilisation de composants .NET, reprise d'un projet de gestion electronique de documents (factures), analyse, conception de développement d'applications de gestion, assistance aux utilisateurs. ",
     interests: 'Actualités jeux vidéo et nouvelles technologies, retrogaming, musique (covers à la guitare), sport (fitness/danse).',

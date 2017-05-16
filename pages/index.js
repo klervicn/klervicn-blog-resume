@@ -14,7 +14,7 @@ const localizedStrings = {
   en: { buttonText: 'Version française' }
 };
 
-//scrollto
+const clientRect = object.getBoundingClientRect();
 
 export default class Home extends React.PureComponent {
   constructor() {
@@ -42,6 +42,7 @@ export default class Home extends React.PureComponent {
 
   render() {
     const language = this.state.language;
+    console.log(clientRect);
 
     return (
       <div>
