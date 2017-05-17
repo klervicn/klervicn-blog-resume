@@ -1,13 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import TitleSection from '../components/TitleSection';
-import Section from '../components/Section';
-import LineLabel from '../components/LineLabel';
-import Line from '../components/Line';
-import HeadLabel from '../components/HeadLabel';
-import LineContent from '../components/LineContent';
-import Tab from '../components/Tab';
-import AnchorPanel from '../components/AnchorPanel';
+import Tabs from '../components/Tabs';
 
 /* TopBorder = Couleur thème (il est temps de se bouger le cul et d'aller choper la vraie couleur)
   Header = Le titre, Nayru ? + RS ?
@@ -35,6 +28,6 @@ export default () => (
       Nayru
     </div>
     <div className="TabMenu" />
-    <a href="/resume">CV</a>
+    <Tabs />
   </div>
 );
