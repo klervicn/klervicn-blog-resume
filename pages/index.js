@@ -9,9 +9,13 @@ import LineContent from '../components/LineContent';
 import Tab from '../components/Tab';
 import AnchorPanel from '../components/AnchorPanel';
 
-/* TopBorder = Couleur thème (il est temps de se bouger et d'aller choper la vraie couleur)
-  Header = Le titre, Nayru ?
-  TabMenu = A mettre en component et à insérer sur tous les écrans, du coup faudra modifier le CV
+/* TopBorder = Couleur thème (il est temps de se bouger le cul et d'aller choper la vraie couleur)
+  Header = Le titre, Nayru ? + RS ?
+  TabMenu = A mettre en component et à insérer sur tous les écrans, du coup faudra modifier le CV :
+    TV : embbed twitch avec dons
+    Blog : Articles
+    CV : deja faite, youpi.
+
  */
 
 export default () => (
@@ -27,7 +31,9 @@ export default () => (
         margin: '0 auto'
       }}
     />
-    <div className="Header" />
+    <div className="Header">
+      Nayru
+    </div>
     <div className="TabMenu" />
     <a href="/resume">CV</a>
   </div>
