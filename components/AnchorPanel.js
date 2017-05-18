@@ -34,7 +34,8 @@ export default ({ language }) => (
       right: '10px',
       position: 'sticky',
       position: 'fixed',
-      fontFamily: 'Verdana'
+      fontFamily: 'Verdana',
+      marginTop: 50
     }}
   >
     <div

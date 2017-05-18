@@ -1,21 +1,41 @@
 import React from 'react';
 import Pane from '../components/Pane';
 
-const tabList = [
-  { id: 1, name: 'Stream', url: '/stream' },
-  { id: 2, name: 'Blog', url: '/blog' },
-  { id: 2, name: 'CV', url: '/resume' }
-];
+//             handleClick={this.handleClick}
 
 //Hold the tab navigation
+// Demander à Elie l'explication de cette histoire de bind là
 
-export default () => (
-  <nav>
-    <ul>
-      {tabList.map(function(tab) {
-        return <Pane url={tab.url} name={tab.name} />;
-      })}
+export default class Tabs extends React.PureComponent {
+  constructor() {
+    super();
 
-    </ul>
-  </nav>
-);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(tab) {
+    this.props.changeTab(tab);
+  }
+
+  render() {
+    return (
+      <nav>
+        <ul>
+          {this.props.tabList.map(
+            function(tab) {
+              return (
+                <Pane
+                  key={tab.id}
+                  url={tab.url}
+                  name={tab.name}
+                  handleClick={this.handleClick.bind(this, tab)}
+                  isCurrent={this.props.currentTab === tab.id}
+                />
+              );
+            }.bind(this)
+          )}
+        </ul>
+      </nav>
+    );
+  }
+}
