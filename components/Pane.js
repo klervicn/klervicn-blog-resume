@@ -2,7 +2,7 @@ import React from 'react';
 import { labelColor } from '../styles/colors';
 import { titlesColor } from '../styles/colors';
 
-//Each individual tab
+//Le hover marche pas
 
 export default class Pane extends React.PureComponent {
   constructor() {
@@ -34,16 +34,16 @@ export default class Pane extends React.PureComponent {
             {
               display: 'inline-block',
               textDecoration: 'none',
-              padding: '10px',
+              padding: '10px 25px 10px 0px',
               fontFamily: 'Verdana',
-              fontSize: 14
+              fontSize: 15
             },
             linkStyle
           )}
           href={this.props.url}
           onClick={this.handleClick}
-          onMouseEnter={this.toggleHover}
-          onMouseLeave={this.toggleHover}
+          onMouseEnter={console.log('entrée')}
+          onMouseLeave={console.log('sortie')}
         >
           {this.props.name}
         </a>

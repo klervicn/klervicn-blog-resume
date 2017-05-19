@@ -1,11 +1,12 @@
 import React from 'react';
 import Resume from '../pages/resume';
+import StreamPage from '../components/StreamPage';
 
 export default ({ currentTab }) => (
   <div className="content">
     {currentTab === 1
       ? <div>
-          <p>Stream</p>
+          <StreamPage />
         </div>
       : null}
 

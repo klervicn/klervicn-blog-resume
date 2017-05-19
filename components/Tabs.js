@@ -21,19 +21,15 @@ export default class Tabs extends React.PureComponent {
     return (
       <nav>
         <ul>
-          {this.props.tabList.map(
-            function(tab) {
-              return (
-                <Pane
-                  key={tab.id}
-                  url={tab.url}
-                  name={tab.name}
-                  handleClick={this.handleClick.bind(this, tab)}
-                  isCurrent={this.props.currentTab === tab.id}
-                />
-              );
-            }.bind(this)
-          )}
+          {this.props.tabList.map(tab => (
+            <Pane
+              key={tab.id}
+              url={tab.url}
+              name={tab.name}
+              handleClick={this.handleClick.bind(this, tab)}
+              isCurrent={this.props.currentTab === tab.id}
+            />
+          ))}
         </ul>
       </nav>
     );
