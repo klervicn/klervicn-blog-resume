@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Tabs from '../components/Tabs';
 import PaneContent from '../components/PaneContent';
+import { nayruColor } from '../styles/colors';
 
 const tabList = [
   { id: 1, name: 'Stream', url: '/stream' },
@@ -43,7 +44,7 @@ export default class Main extends React.PureComponent {
         <div
           className="TopBorder"
           style={{
-            backgroundColor: '#f26d6d',
+            backgroundColor: nayruColor,
             height: 40,
             margin: '0 auto'
           }}

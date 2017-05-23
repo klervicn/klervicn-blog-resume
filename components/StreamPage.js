@@ -22,5 +22,18 @@ export default () => (
       height="500"
       width="350"
     />
+
+    <div style={{ padding: '10px' }}>
+
+      <a href="https://www.facebook.com/MlleNayru/">
+        <img src="../static/facebookNayru.jpg" alt="fb" />
+      </a>
+      <a href="https://twitter.com/Nayruuu">
+        <img src="../static/twitterNayru.jpg" alt="twitter" />
+      </a>
+      <a href="https://www.youtube.com/c/Nayru">
+        <img src="../static/youtubeNayru.jpg" alt="yt" />
+      </a>
+    </div>
   </div>
 );
