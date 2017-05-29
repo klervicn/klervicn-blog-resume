@@ -1,8 +1,8 @@
 import React from 'react';
+import Link from 'next/link';
+
 import { labelColor } from '../styles/colors';
 import { titlesColor } from '../styles/colors';
-
-//Le hover marche pas
 
 export default class Pane extends React.PureComponent {
   constructor() {
@@ -29,24 +29,23 @@ export default class Pane extends React.PureComponent {
     }
     return (
       <li style={{ display: 'inline-block' }}>
-        <a
-          style={Object.assign(
-            {
-              display: 'inline-block',
-              textDecoration: 'none',
-              padding: '10px 25px 10px 0px',
-              fontFamily: 'Verdana',
-              fontSize: 15
-            },
-            linkStyle
-          )}
-          href={this.props.url}
-          onClick={this.handleClick}
-          onMouseEnter={console.log('entrée')}
-          onMouseLeave={console.log('sortie')}
-        >
-          {this.props.name}
-        </a>
+        <Link href={this.props.url}>
+          <a
+            style={Object.assign(
+              {
+                display: 'inline-block',
+                textDecoration: 'none',
+                padding: '10px 25px 10px 0px',
+                fontFamily: 'Verdana',
+                fontSize: 15
+              },
+              linkStyle
+            )}
+            onClick={this.handleClick}
+          >
+            {this.props.name}
+          </a>
+        </Link>
       </li>
     );
   }

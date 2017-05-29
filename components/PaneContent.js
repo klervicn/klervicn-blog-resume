@@ -1,32 +1,42 @@
 import React from 'react';
-import Resume from '../pages/resume';
-import StreamPage from '../components/StreamPage';
+import ResumeTab from '../components/ResumeTab';
+import StreamTab from '../components/StreamTab';
+import BlogTab from '../components/BlogTab';
+import InfosTab from '../components/InfosTab';
 
-export default ({ currentTab }) => (
+export default ({ currentTabId }) => (
   <div className="content">
-    {currentTab === 1
+    {currentTabId === 1
       ? <div>
-          <StreamPage />
+          <StreamTab />
         </div>
-      : null}
+      : <div>
+          <StreamTab style={{ display: 'none' }} />
+        </div>}
 
-    {currentTab === 2
+    {currentTabId === 2
       ? <div>
-          <p>Blog</p>
+          <BlogTab />
         </div>
-      : null}
+      : <div>
+          <BlogTab style={{ display: 'none' }} />
+        </div>}
 
-    {currentTab === 3
+    {currentTabId === 3
       ? <div>
-          <Resume />
+          <ResumeTab />
         </div>
-      : null}
+      : <div>
+          <ResumeTab style={{ display: 'none' }} />
+        </div>}
 
-    {currentTab === 4
+    {currentTabId === 4
       ? <div>
-          <p>Infos</p>
+          <InfosTab />
         </div>
-      : null}
+      : <div>
+          <InfosTab style={{ display: 'none' }} />
+        </div>}
 
   </div>
 );

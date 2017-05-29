@@ -7,16 +7,6 @@ import Pane from '../components/Pane';
 // Demander à Elie l'explication de cette histoire de bind là
 
 export default class Tabs extends React.PureComponent {
-  constructor() {
-    super();
-
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick(tab) {
-    this.props.changeTab(tab);
-  }
-
   render() {
     return (
       <nav>
@@ -26,8 +16,7 @@ export default class Tabs extends React.PureComponent {
               key={tab.id}
               url={tab.url}
               name={tab.name}
-              handleClick={this.handleClick.bind(this, tab)}
-              isCurrent={this.props.currentTab === tab.id}
+              isCurrent={this.props.currentTabId === tab.id}
             />
           ))}
         </ul>
