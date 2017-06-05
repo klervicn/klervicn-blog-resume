@@ -3,9 +3,6 @@ import Pane from '../components/Pane';
 
 //             handleClick={this.handleClick}
 
-//Hold the tab navigation
-// Demander à Elie l'explication de cette histoire de bind là
-
 export default class Tabs extends React.PureComponent {
   render() {
     return (

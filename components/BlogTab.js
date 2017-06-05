@@ -1,5 +1,6 @@
 import React from 'react';
 import commonmark from 'commonmark';
+import ReactMarkdown from 'react-markdown';
 
 export default class BlogTab extends React.PureComponent {
   constructor() {
@@ -19,14 +20,6 @@ export default class BlogTab extends React.PureComponent {
     });
   }
 
-  displayHtml() {
-    var reader = new commonmark.Parser();
-    var writer = new commonmark.HtmlRenderer();
-    var parsed = reader.parse(this.state.inputValue);
-    var result = writer.render(parsed);
-    console.log(result);
-  }
-
   render() {
     return (
       <div style={Object.assign({}, this.props.style)}>
@@ -35,9 +28,10 @@ export default class BlogTab extends React.PureComponent {
           placeholder="enter text"
           onChange={this.updateInputValue}
         />
-        <button type="button" onClick={this.displayHtml}>
-          Transform
-        </button>
+
+        <div>
+          <ReactMarkdown source={this.state.inputValue} />
+        </div>
       </div>
     );
   }
