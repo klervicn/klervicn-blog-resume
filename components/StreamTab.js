@@ -7,32 +7,53 @@ export default class StreamTab extends React.PureComponent {
 
   render() {
     return (
-      <div
-        style={Object.assign(
-          {
+      <div style={Object.assign({ textAlign: 'center' }, this.props.style)}>
+        <div
+          style={{
             margin: '0 auto',
-            textAlign: 'center'
-          },
-          this.props.style
-        )}
-      >
-        <iframe
-          src="https://player.twitch.tv/?channel=nayrulive"
-          frameborder="0"
-          allowfullscreen="true"
-          scrolling="no"
-          height="500"
-          width="75%"
-        />
-        <iframe
-          src="https://www.twitch.tv/nayrulive/chat?popout="
-          frameborder="0"
-          scrolling="no"
-          height="500"
-          width="24%"
-        />
+            textAlign: 'center',
+            position: 'relative',
+            paddingBottom: '500px',
+            paddingTop: '25px',
+            height: 0
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%'
+            }}
+          >
+            <iframe
+              src="https://player.twitch.tv/?channel=nayrulive"
+              frameborder="0"
+              allowfullscreen="true"
+              scrolling="no"
+              height="500"
+              width="75%"
+            />
+            <iframe
+              src="https://www.twitch.tv/nayrulive/chat?popout="
+              frameborder="0"
+              scrolling="no"
+              height="500"
+              width="24%"
+            />
+          </div>
+        </div>
 
-        <div style={{ padding: '10px' }}>
+        <div
+          style={{
+            position: 'relative',
+            display: 'inline-block',
+            whiteSpace: 'nowrap',
+            paddingTop: 2,
+            textAlign: 'center'
+          }}
+        >
 
           <a href="https://www.facebook.com/MlleNayru/">
             <img src="../static/facebookNayru.jpg" alt="fb" />
@@ -43,6 +64,7 @@ export default class StreamTab extends React.PureComponent {
           <a href="https://www.youtube.com/c/Nayru">
             <img src="../static/youtubeNayru.jpg" alt="yt" />
           </a>
+
         </div>
       </div>
     );

@@ -7,7 +7,16 @@ export default class Tabs extends React.PureComponent {
   render() {
     return (
       <nav>
-        <ul>
+        <ul style={{ paddingLeft: 3, whiteSpace: 'nowrap' }}>
+          <img
+            src="../static/Nayru.png"
+            style={{
+              height: 35,
+              verticalAlign: 'top',
+              paddingRight: 20,
+              paddingTop: 2
+            }}
+          />
           {this.props.tabList.map(tab => (
             <Pane
               key={tab.id}
