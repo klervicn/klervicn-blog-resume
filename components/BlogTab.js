@@ -11,7 +11,7 @@ export default class BlogTab extends React.PureComponent {
   render() {
     return (
       <div style={Object.assign({}, this.props.style)}>
-        <ul>
+        <ul style={{ listStyleType: 'none' }}>
           {posts.map(({ key, title, date, body }) => (
             <li>
               <BlogPost key={key} title={title} date={date} body={body} />

@@ -33,14 +33,14 @@ export default class StreamTab extends React.PureComponent {
               allowfullscreen="true"
               scrolling="no"
               height="500"
-              width="75%"
+              width="55%"
             />
             <iframe
               src="https://www.twitch.tv/nayrulive/chat?popout="
               frameborder="0"
               scrolling="no"
               height="500"
-              width="24%"
+              width="20%"
             />
           </div>
         </div>
