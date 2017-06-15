@@ -9,6 +9,7 @@ export default class BlogPost extends React.PureComponent {
   render() {
     return (
       <div>
+
         <h1>{this.props.title}</h1>
         <ReactMarkdown source={this.props.body} />
       </div>

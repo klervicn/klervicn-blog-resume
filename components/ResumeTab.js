@@ -9,9 +9,9 @@ import LineContent from '../components/LineContent';
 import Tab from '../components/Tab';
 import AnchorPanel from '../components/AnchorPanel';
 
-const localizedStrings = {
-  fr: { buttonText: 'English version' },
-  en: { buttonText: 'Version française' }
+const localizedFlags = {
+  fr: { countryFlag: '../static/ukFlag.png' },
+  en: { countryFlag: '../static/frFlag.png' }
 };
 export default class ResumeTab extends React.PureComponent {
   constructor() {
@@ -49,22 +49,11 @@ export default class ResumeTab extends React.PureComponent {
         <Section>
           <Tab>
             <TitleSection name="Klervi Corbel" title="Dev | Tester | Gamer" />
-            <button
-              type="button"
+            <img
+              src={localizedFlags[this.state.language]['countryFlag']}
               onClick={this.switchLanguage}
-              style={{
-                color: '#ffffff',
-                fontFamily: 'Verdana',
-                borderRadius: '4px',
-                background: '#f26d6d',
-                textDecoration: 'none',
-                padding: '5px 20px 5px 20px',
-                fontSize: 10,
-                width: 130
-              }}
-            >
-              {localizedStrings[this.state.language]['buttonText']}
-            </button>
+              style={{}}
+            />
           </Tab>
         </Section>
         <Section>

@@ -29,7 +29,7 @@ export default class Pane extends React.PureComponent {
               fontFamily: 'Verdana',
               fontSize: 15,
               color: labelColor,
-              fontWeight: fontWeight
+              fontWeight
             }}
             onClick={this.handleClick}
           >
