@@ -8,10 +8,11 @@ import HeadLabel from '../components/HeadLabel';
 import LineContent from '../components/LineContent';
 import Tab from '../components/Tab';
 import AnchorPanel from '../components/AnchorPanel';
+import { labelColor } from '../styles/colors';
 
 const localizedFlags = {
-  fr: { countryFlag: '../static/ukFlag.png' },
-  en: { countryFlag: '../static/frFlag.png' }
+  fr: { countryFlag: '../static/frFlag.png' },
+  en: { countryFlag: '../static/ukFlag.png' }
 };
 export default class ResumeTab extends React.PureComponent {
   constructor() {
@@ -24,17 +25,10 @@ export default class ResumeTab extends React.PureComponent {
     this.switchLanguage = this.switchLanguage.bind(this);
   }
 
-  switchLanguage(e) {
-    e.preventDefault();
-    if (this.state.language === 'fr') {
-      this.setState({
-        language: 'en'
-      });
-    } else {
-      this.setState({
-        language: 'fr'
-      });
-    }
+  switchLanguage(lang) {
+    this.setState({
+      language: lang
+    });
   }
 
   render() {
@@ -42,17 +36,27 @@ export default class ResumeTab extends React.PureComponent {
 
     return (
       <div style={Object.assign({}, this.props.style)}>
-        <Head>
-          <title>Klervi Corbel</title>
-        </Head>
         <AnchorPanel language={language} />
         <Section>
           <Tab>
             <TitleSection name="Klervi Corbel" title="Dev | Tester | Gamer" />
             <img
-              src={localizedFlags[this.state.language]['countryFlag']}
-              onClick={this.switchLanguage}
-              style={{}}
+              src={localizedFlags['en']['countryFlag']}
+              onClick={() => this.switchLanguage('en')}
+              style={
+                language === 'en'
+                  ? { border: '1px solid', borderColor: labelColor }
+                  : {}
+              }
+            />
+            <img
+              src={localizedFlags['fr']['countryFlag']}
+              onClick={() => this.switchLanguage('fr')}
+              style={
+                language === 'fr'
+                  ? { border: '1px solid', borderColor: labelColor }
+                  : {}
+              }
             />
           </Tab>
         </Section>

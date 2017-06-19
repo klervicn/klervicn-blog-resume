@@ -5,10 +5,9 @@ import PaneContent from '../components/PaneContent';
 import { nayruColor } from '../styles/colors';
 
 export const tabList = [
-  { id: 1, name: 'Stream', url: '/stream' },
-  { id: 2, name: 'Blog', url: '/blog' },
-  { id: 3, name: 'CV', url: '/resume' },
-  { id: 4, name: 'Infos', url: '/infos' }
+  { key: 1, id: 1, name: 'Stream', url: '/stream' },
+  { key: 2, id: 2, name: 'Blog', url: '/blog' },
+  { key: 3, id: 3, name: 'CV', url: '/resume' }
 ];
 
 export default class Main extends React.PureComponent {

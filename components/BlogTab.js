@@ -10,12 +10,16 @@ export default class BlogTab extends React.PureComponent {
 
   render() {
     return (
-      <div style={Object.assign({}, this.props.style)}>
+      <div className="Blog" style={Object.assign({}, this.props.style)}>
         <style
           dangerouslySetInnerHTML={{
-            __html: `@import url('https://fonts.googleapis.com/css?family=Courgette|Handlee|Indie+Flower|Kalam|Patrick+Hand+SC|Shadows+Into+Light+Two');
-          h1 { font-family: 'Handlee', cursive;  color: #DA5F5A;}
-          body { font-family: 'Verdana' ; font-size: 15px; color: #494949}
+            __html: `@import url('https://fonts.googleapis.com/css?family=Courgette|Handlee|Indie+Flower|Kalam|Patrick+Hand+SC|Cinzel|Shadows+Into+Light+Two');
+        .Blog h1 { font-family: 'Cinzel';  color: #DA5F5A;}
+        .Blog h3 {color: #DA5F5A}
+          .Blog { font-family: 'Verdana' ; font-size: 14px; color: #494949}
+          .Blog div {margin-right: 20px;  text-align: justify;}
+          .Blog a {text-decoration: none; color: #DA5F5A}
+l
         `
           }}
         />

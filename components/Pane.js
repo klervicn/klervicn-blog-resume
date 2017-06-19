@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { labelColor } from '../styles/colors';
+import { navColor } from '../styles/colors';
 import { titlesColor } from '../styles/colors';
 
 export default class Pane extends React.PureComponent {
@@ -28,7 +28,7 @@ export default class Pane extends React.PureComponent {
               padding: '10px 25px 10px 0px',
               fontFamily: 'Verdana',
               fontSize: 15,
-              color: labelColor,
+              color: navColor,
               fontWeight
             }}
             onClick={this.handleClick}
