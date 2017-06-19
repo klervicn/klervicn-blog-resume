@@ -3,6 +3,8 @@ import ResumeTab from '../components/ResumeTab';
 import StreamTab from '../components/StreamTab';
 import BlogTab from '../components/BlogTab';
 
+// Display management of the module
+
 export default ({ currentTabId }) => (
   <div className="content">
     {currentTabId === 1

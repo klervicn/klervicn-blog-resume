@@ -1,6 +1,8 @@
 import React from 'react';
 import Pane from '../components/Pane';
 
+// Navigation tabs
+
 export default class Tabs extends React.PureComponent {
   render() {
     return (

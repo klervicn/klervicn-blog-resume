@@ -2,6 +2,8 @@ import React from 'react';
 import { lineContentSize } from '../styles/sizes';
 import { lineCaptionSize } from '../styles/sizes';
 
+// Display lines content with localized strings so it's possible to switch between french and english
+
 const localizedStrings = {
   fr: {
     address: 'Paris 19ème',

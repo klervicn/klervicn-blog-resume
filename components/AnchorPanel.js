@@ -1,5 +1,8 @@
 import React from 'react';
 import { labelColor } from '../styles/colors';
+
+// Panel displayed on ResumeTab with shorcuts links.
+
 const localizedStrings = {
   fr: {
     '#personalInformation': 'Informations Personnelles',

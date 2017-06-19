@@ -16,10 +16,9 @@ export default class BlogTab extends React.PureComponent {
             __html: `@import url('https://fonts.googleapis.com/css?family=Courgette|Handlee|Indie+Flower|Kalam|Patrick+Hand+SC|Cinzel|Shadows+Into+Light+Two');
         .Blog h1 { font-family: 'Cinzel';  color: #DA5F5A;}
         .Blog h3 {color: #DA5F5A}
-          .Blog { font-family: 'Verdana' ; font-size: 14px; color: #494949}
-          .Blog div {margin-right: 20px;  text-align: justify;}
-          .Blog a {text-decoration: none; color: #DA5F5A}
-l
+        .Blog { font-family: 'Verdana' ; font-size: 14px; color: #494949}
+        .Blog div {margin-right: 20px;  text-align: justify;}
+        .Blog a {text-decoration: none; color: #DA5F5A}
         `
           }}
         />

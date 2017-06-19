@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { navColor } from '../styles/colors';
 import { titlesColor } from '../styles/colors';
 
+//Links in nav bar to pages
+
 export default class Pane extends React.PureComponent {
   constructor() {
     super();

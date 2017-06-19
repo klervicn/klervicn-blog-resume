@@ -1,6 +1,7 @@
 import React from 'react';
 import { labelColor } from '../styles/colors';
 
+// Display line description
 const localizedStrings = {
   fr: {
     address: 'Adresse',

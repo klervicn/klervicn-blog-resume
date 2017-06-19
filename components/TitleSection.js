@@ -4,6 +4,8 @@ import Name from '../components/Name';
 import AnchorPanel from '../components/AnchorPanel';
 import { labelColor } from '../styles/colors';
 
+// Top section of resume
+
 export default ({ title, name = {} }) => (
   <div>
 

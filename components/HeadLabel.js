@@ -2,6 +2,8 @@ import React from 'react';
 import { headLabelColor } from '../styles/colors';
 import { headLabelSize } from '../styles/sizes';
 
+//Resume categories title
+
 const localizedStrings = {
   fr: {
     personalInformation: 'Informations Personnelles',
