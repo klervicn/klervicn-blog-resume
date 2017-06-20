@@ -16,6 +16,7 @@ export default class Main extends React.PureComponent {
       <div style={{ minWidth: 800 }}>
         <Head>
           <title>Nayru</title>
+          <link rel="icon" href="favicon.ico" />
         </Head>
         <div
           className="TopBorder"
