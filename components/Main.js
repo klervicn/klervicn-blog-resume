@@ -7,7 +7,8 @@ import { nayruColor } from '../styles/colors';
 export const tabList = [
   { key: 1, id: 1, name: 'Stream', url: '/stream' },
   { key: 2, id: 2, name: 'Blog', url: '/blog' },
-  { key: 3, id: 3, name: 'CV', url: '/resume' }
+  { key: 3, id: 3, name: 'CV', url: '/resume' },
+  { key: 4, id: 4, name: 'Mountracker', url: '/mountracker' },
 ];
 
 export default class Main extends React.PureComponent {
@@ -23,7 +24,7 @@ export default class Main extends React.PureComponent {
           style={{
             backgroundColor: nayruColor,
             height: 40,
-            margin: '0 auto'
+            margin: '0 auto',
           }}
         >
           <Tabs currentTabId={this.props.currentTabId} tabList={tabList} />
