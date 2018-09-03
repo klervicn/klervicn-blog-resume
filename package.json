@@ -5,9 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "commonmark": "^0.27.0",
-    "next": "^2.1.0",
-    "react": "^15.5.3",
-    "react-dom": "^15.5.3",
+    "next": "^2.4.9",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
     "react-markdown": "^2.5.0"
   },
   "devDependencies": {},
