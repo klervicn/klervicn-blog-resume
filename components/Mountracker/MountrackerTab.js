@@ -1,4 +1,5 @@
 import React from 'react';
+import LoadCharacter from './LoadCharacter';
 
 export default class MountrackerTab extends React.PureComponent {
   constructor() {
@@ -6,6 +7,11 @@ export default class MountrackerTab extends React.PureComponent {
   }
 
   render() {
-    return <div>World Of Warcraft Mountracker</div>;
+    return (
+      <div style={Object.assign({ textAlign: 'left' }, this.props.style)}>
+        World Of Warcraft Mountracker
+        <LoadCharacter />
+      </div>
+    );
   }
 }
