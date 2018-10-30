@@ -2,6 +2,8 @@
 You can see this project running [here](http://nayru.fr)
 This is my first "real" project in Javascript/HTML/CSS
 
+NB : This project needs refactor as I have evolved and I'm capable of producing a better code now.
+
 ## Stream tab
 This tab is simply hosting my twitch channel with link to my social networks
 
